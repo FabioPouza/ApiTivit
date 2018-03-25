@@ -1,5 +1,5 @@
 var app = require('./app/config/express')();
 
-app.listen(3000, function () {
+app.listen(app.get('port'), function () {
 
 });
